@@ -1,6 +1,10 @@
 class Feature
   def perform
-    puts 'More complicated '
-    puts 'Feature performed!!!'
+    generete_message('More complicated feature performed!!!')
   end
+
+  private
+    def generete_message(message)
+      puts message
+    end
 end
